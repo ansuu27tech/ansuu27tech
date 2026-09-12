@@ -1,31 +1,135 @@
-# 💫 About Me:
-# 👋 Hi, I'm Mohammed Anas<br><br>🚀 AI & Data Science Student | Full-Stack Developer | UI/UX Designer | Founder of **PIXELMINT STUDIO MVS**<br><br>I'm passionate about building intelligent software, premium digital experiences, and scalable web applications that combine technology with exceptional design. My work spans Artificial Intelligence, Machine Learning, modern web development, cloud technologies, and high-end digital branding.<br><br>I enjoy solving real-world problems through clean architecture, user-centric design, and innovative engineering.<br><br>## 💼 What I Do<br><br>* 🤖 Artificial Intelligence & Machine Learning<br>* 🌐 Full-Stack Web Development<br>* ⚡ Next.js, React & Modern JavaScript<br>* 🎨 UI/UX Design & Creative Branding<br>* 📊 Data Science & Analytics<br>* ☁️ Cloud Integration & Backend Development<br>* 📱 Responsive Web Applications<br>* 🚀 Performance Optimization & SEO<br><br>## 🛠 Tech Stack<br><br>**Languages**<br>Python • JavaScript • TypeScript • C • SQL • HTML5 • CSS3<br><br>**Frontend**<br>React • Next.js • Tailwind CSS • Framer Motion<br><br>**Backend**<br>Node.js • Express.js • REST APIs<br><br>**Database**<br>Supabase • PostgreSQL • Firebase<br><br>**AI & Data**<br>TensorFlow • Scikit-learn • Pandas • NumPy • OpenCV<br><br>**Tools**<br>Git • GitHub • VS Code • Figma • Canva • Cloudinary • Vercel<br><br>## 🌱 Currently Learning<br><br>* Advanced Machine Learning<br>* Deep Learning<br>* Large Language Models (LLMs)<br>* System Design<br>* Cloud Computing<br>* AI Automation<br><br>## 🚀 Current Focus<br><br>Building AI-powered applications, premium web experiences, and impactful digital products while continuously expanding my expertise in software engineering and artificial intelligence.<br><br>## 🤝 Let's Connect<br><br>I'm always interested in collaborating on open-source projects, AI research, innovative startups, and modern web technologies.<br><br>> *"Turning ideas into intelligent digital experiences through code, creativity, and innovation."*<br><br>
+<div align="center">
 
+# MOHAMMED ANAS T N
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/ansuu53) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ansuu__._) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/mohammed-anas-30110b35b) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/mohdanas53n) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mohdanas53n@gmail.com) 
+**AI × ENGINEERING × DESIGN × ENTREPRENEURSHIP**
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Org Mode](https://img.shields.io/badge/orgmode-%2377AA99.svg?style=for-the-badge&logo=org&logoColor=white) ![ReScript](https://img.shields.io/badge/rescript-%2314162c?style=for-the-badge&logo=rescript&logoColor=e34c4c) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Erlang](https://img.shields.io/badge/Erlang-white.svg?style=for-the-badge&logo=erlang&logoColor=a90533) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Scaleway](https://img.shields.io/badge/SCALEWAY-%234f0599.svg?style=for-the-badge&logo=scaleway&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![OpenStack](https://img.shields.io/badge/Openstack-%23f01742.svg?style=for-the-badge&logo=openstack&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Code-Igniter](https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white) ![Fastify](https://img.shields.io/badge/fastify-%23000000.svg?style=for-the-badge&logo=fastify&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?style=for-the-badge&logo=greensock&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![WebGL](https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=for-the-badge) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Couchbase](https://img.shields.io/badge/Couchbase-EA2328?style=for-the-badge&logo=couchbase&logoColor=white) ![MusicBrainz](https://img.shields.io/badge/Musicbrainz-EB743B?style=for-the-badge&logo=musicbrainz&logoColor=BA478F) ![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) ![PlanetScale](https://img.shields.io/badge/planetscale-%23000000.svg?style=for-the-badge&logo=planetscale&logoColor=white) ![PocketBase](https://img.shields.io/badge/pocketbase-%23b8dbe4.svg?style=for-the-badge&logo=Pocketbase&logoColor=black) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe Audition](https://img.shields.io/badge/Adobe%20Audition-9999FF.svg?style=for-the-badge&logo=Adobe%20Audition&logoColor=white) ![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26.svg?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Affinity Photo](https://img.shields.io/badge/affinityphoto-%237E4DD2.svg?style=for-the-badge&logo=affinity-photo&logoColor=white) ![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B) ![Proto.io](https://img.shields.io/badge/Proto.io-161637?style=for-the-badge&logo=proto.io&logoColor=00e5ff) ![Rhinoceros](https://img.shields.io/badge/Rhinoceros-801010?style=for-the-badge&logo=rhinoceros&logoColor=white) ![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white) ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white) ![Sketch Up](https://img.shields.io/badge/SketchUp-005F9E?style=for-the-badge&logo=sketchup&logoColor=white) ![Sketch](https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black) ![Invision](https://img.shields.io/badge/invision-FF3366?style=for-the-badge&logo=invision&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) ![Adobe Lightroom Classic](https://img.shields.io/badge/Adobe%20Lightroom%20Classic-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom%20Classic&logoColor=white) ![Affinity Designer](https://img.shields.io/badge/affinity%20desginer-%231B72BE.svg?style=for-the-badge&logo=affinity-designer&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Gitpod](https://img.shields.io/badge/gitpod-f06611.svg?style=for-the-badge&logo=gitpod&logoColor=white) ![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=for-the-badge&logo=bitbucket&logoColor=white) ![Forgejo](https://img.shields.io/badge/forgejo-%23FB923C.svg?style=for-the-badge&logo=forgejo&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![TeamCity](https://img.shields.io/badge/teamcity-000000.svg?style=for-the-badge&logo=teamcity&logoColor=white) ![Jasmine](https://img.shields.io/badge/-Jasmine-%238A4182?style=for-the-badge&logo=Jasmine&logoColor=white) ![Mocha](https://img.shields.io/badge/-mocha-%238D6748?style=for-the-badge&logo=mocha&logoColor=white) ![Airbnb](https://img.shields.io/badge/Airbnb-%23ff5a5f.svg?style=for-the-badge&logo=Airbnb&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white) ![Xbox](https://img.shields.io/badge/xbox-%23107C10.svg?style=for-the-badge&logo=xbox&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) ![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=for-the-badge&logo=Itch.io&logoColor=white) ![Battle.net](https://img.shields.io/badge/battle.net-%2300AEFF.svg?style=for-the-badge&logo=battle.net&logoColor=white) ![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white) ![Wireguard](https://img.shields.io/badge/wireguard-%2388171A.svg?style=for-the-badge&logo=wireguard&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![PlatformIO](https://img.shields.io/badge/PlatformIO-%23222.svg?style=for-the-badge&logo=platformio&logoColor=%23f5822a) ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=ansuu27tech&theme=calm_pink&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=ansuu27tech&theme=calm_pink&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=ansuu27tech&theme=calm_pink&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+<br>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=ansuu27tech&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+*Building intelligent software, premium digital experiences, and scalable architecture.*
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+</div>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=ansuu27tech&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<br>
 
----
-[![](https://komarev.com/ghpvc/?username=ansuu27tech&icon=0&color=0)](https://visitcount.itsvg.in)
+## ■ ABOUT
 
-  ## 💰 You can help me by Donating
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/MohammmedAnas407) 
+I am an engineer and designer operating at the intersection of Artificial Intelligence, scalable web architecture, and human-centric design. My focus is on translating complex technical requirements into elegant, high-performance digital products.
 
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+As the founder of **PIXELMINT STUDIO MVS**, I lead the creative and technical direction of digital solutions, ensuring every product is engineered for scale and designed with precision. I believe that exceptional software requires both rigorous system architecture and an uncompromising aesthetic standard.
+
+<br>
+
+## ■ FOCUS AREAS
+
+- **AI & Data Science:** Predictive modeling, data analysis, and intelligent automation.
+- **Product Engineering:** Full-stack architecture, scalable backends, and cross-platform apps.
+- **UI/UX & Creative Technology:** Minimalist design, fluid interfaces, and premium brand identities.
+- **Cloud Infrastructure:** Serverless architecture, API design, and database modeling.
+
+<br>
+
+## ■ CURRENTLY BUILDING
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🏗️ ARCHI DRAFT
+**Cross-Platform Architecture & Design Utility**
+
+A comprehensive mobile and desktop application engineered for architects and draughtsmen. Built with a scalable cloud backend to manage projects, designs, and studio workflows across devices.
+
+**Role:** Lead Developer & Designer  
+**Tech:** Flutter, Dart, Firebase, Cloud Firestore  
+**Status:** In Active Development
+
+</td>
+<td width="50%" valign="top">
+
+### ✦ PIXELMINT STUDIO MVS
+**Creative Technology & Engineering Studio**
+
+A digital product studio focused on high-end web development, AI integration, and technical branding. We build the architecture and interfaces behind modern businesses.
+
+**Role:** Founder & Director  
+**Focus:** Engineering, UI/UX, Strategy  
+**Status:** Active & Growing
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## ■ SELECTED WORK
+
+**[Anas Bio / Portfolio](https://ansuu.github.io/anas.bio)**  
+A high-performance portfolio showcasing my engineering journey, design philosophy, and technical writing.  
+`TypeScript` `Next.js/React` `Vercel`
+
+**[SS Builders MVS](https://ss-builders-mvs.vercel.app)**  
+Official web platform engineered for a leading construction company, featuring modern layouts and optimized performance.  
+`HTML5` `Modern CSS` `JavaScript`
+
+**[Draughtsman Studio](https://github.com/ansuu27tech/DRAUGHTSMAN-STUDIO)**  
+A web presence designed specifically for architectural drafting services, emphasizing visual hierarchy and clean design.  
+`HTML5` `UI/UX` `CSS3`
+
+**[Data Science Analytics](https://github.com/ansuu27tech/CODTECH-Task1)**  
+Analytical models and data processing pipelines demonstrating applied data science methodologies.  
+`Python` `Jupyter Notebook` `Pandas`
+
+<br>
+
+## ■ ECOSYSTEM
+
+**Languages:** `Python` `TypeScript` `JavaScript` `Dart` `C` `SQL` `HTML/CSS`  
+**Engineering:** `React` `Next.js` `Flutter` `Node.js` `Express` `Tailwind CSS`  
+**AI & Data:** `TensorFlow` `Scikit-Learn` `Pandas` `NumPy` `Jupyter`  
+**Cloud & DB:** `Firebase` `Supabase` `PostgreSQL` `Git` `Vercel` `Figma`
+
+<br>
+
+## ■ METHODOLOGY
+
+<div align="center">
+  <code>IDEA</code> ➝ <code>RESEARCH</code> ➝ <code>DESIGN</code> ➝ <code>ARCHITECTURE</code> ➝ <code>ENGINEERING</code> ➝ <code>DEPLOYMENT</code> ➝ <code>ITERATION</code>
+</div>
+
+<br>
+
+## ■ ANALYTICS
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ansuu27tech&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=8b949e&icon_color=ffffff" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ansuu27tech&layout=compact&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=8b949e" height="150" alt="Top Languages" />
+</div>
+
+<br>
+
+## ■ CURRENTLY EXPLORING
+
+- Deep Learning & Large Language Models (LLMs)
+- Scalable System Architecture
+- Cross-Platform Performance Optimization
+
+<br>
+
+## ■ PHILOSOPHY
+
+> *Code is the mechanism. Design is the interface. Value is the outcome. I build systems where performance and aesthetics coexist without compromise.*
+
+<br>
+
+## ■ CONNECT
+
+[**GitHub**](https://github.com/ansuu27tech) &nbsp;•&nbsp; [**LinkedIn**](https://www.linkedin.com/in/mohammed-anas-30110b35b) &nbsp;•&nbsp; [**Portfolio**](https://ansuu.github.io/anas.bio) &nbsp;•&nbsp; [**Email**](mailto:mohdanas53n@gmail.com)
+
+<br><br>
+
+<div align="center">
+
+**BUILDING INTENTIONAL PRODUCTS.**
+
+</div>
