@@ -1,61 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 832 380" width="100%" height="380">
   <defs>
     <style>
+      .bg { fill: #070B16; }
+      .text-white { fill: #F5F7FA; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 600; }
+      .text-muted { fill: #8B95A7; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 13px; }
+      .text-mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; fill: #247BFF; font-size: 10px; font-weight: 700; letter-spacing: 2px; }
+      .text-mono-red { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; fill: #FF354F; font-size: 11px; font-weight: 700; }
       
-      .bg { fill: #03050a; }
-      .text-white { fill: #f5f7ff; font-family: 'Inter', sans-serif; }
-      .text-muted { fill: #8d96aa; font-family: 'Inter', sans-serif; }
-      .text-mono { font-family: 'JetBrains Mono', monospace; fill: #247bff; }
-      .text-mono-crimson { font-family: 'JetBrains Mono', monospace; fill: #ff354f; }
-      .line { stroke: rgba(255,255,255,0.1); stroke-width: 1; }
-      .dot { fill: #247bff; }
-      .dot-active { fill: #ff354f; }
+      .timeline-line { stroke: rgba(255,255,255,0.08); stroke-width: 2; }
+      .dot { fill: #247BFF; }
+      .dot-red { fill: #FF354F; }
+      .card { fill: #0B1020; stroke: rgba(255,255,255,0.06); stroke-width: 1; }
     </style>
   </defs>
 
-  <rect width="832" height="380" class="bg" rx="12" />
-  <text x="40" y="40" class="text-mono" font-size="10" font-weight="700" letter-spacing="2">06 &mdash; EXPERIENCE</text>
+  <rect width="832" height="380" class="bg" rx="16" />
+  <rect x="1" y="1" width="830" height="378" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" rx="16" />
+  <text x="40" y="45" class="text-mono">EXPERIENCE</text>
 
-  <g transform="translate(40, 80)">
-    <!-- Timeline Line -->
-    <path d="M 120 10 L 120 280" class="line" />
+  <g transform="translate(60, 90)">
+    <!-- Vertical Line -->
+    <path d="M 140 10 L 140 260" class="timeline-line" />
 
     <!-- 2026 - Present -->
-    <g transform="translate(0, 10)">
-      <text x="0" y="4" class="text-mono-crimson" font-size="12" font-weight="700">2026&mdash;PRESENT</text>
-      <circle cx="120" cy="0" r="4" class="dot-active" />
-      <text x="150" y="4" class="text-white" font-size="16" font-weight="600">DIGITAL MARKETING STRATEGIST</text>
-      <text x="150" y="24" class="text-muted" font-size="14" font-weight="500">Draughtsman Studio</text>
-      <text x="150" y="48" class="text-muted" font-size="12" font-weight="400">Leading social media growth, performance marketing, brand positioning,</text>
-      <text x="150" y="64" class="text-muted" font-size="12" font-weight="400">campaign strategy, audience targeting, analytics.</text>
+    <g transform="translate(0, 0)">
+      <text x="0" y="24" class="text-mono-red">2026 — PRESENT</text>
+      <circle cx="140" cy="20" r="5" class="dot-red" />
+      <rect x="170" y="0" width="560" height="60" class="card" rx="8" />
+      <text x="190" y="24" class="text-white" font-size="16">DIGITAL MARKETING STRATEGIST</text>
+      <text x="190" y="44" class="text-muted">DRAUGHTSMAN STUDIO</text>
     </g>
 
     <!-- 2024 - Present -->
-    <g transform="translate(0, 110)">
-      <text x="0" y="4" class="text-mono" font-size="12" font-weight="700">2024&mdash;PRESENT</text>
-      <circle cx="120" cy="0" r="4" class="dot" />
-      <text x="150" y="4" class="text-white" font-size="16" font-weight="600">FOUNDER &amp; CREATIVE DIRECTOR</text>
-      <text x="150" y="24" class="text-muted" font-size="14" font-weight="500">PixelMint Studio MVS</text>
-      <text x="150" y="48" class="text-muted" font-size="12" font-weight="400">Leading creative direction, web design, development, branding, digital growth,</text>
-      <text x="150" y="64" class="text-muted" font-size="12" font-weight="400">team leadership, premium digital experiences.</text>
+    <g transform="translate(0, 80)">
+      <text x="0" y="24" class="text-mono-red" fill="#247BFF">2024 — PRESENT</text>
+      <circle cx="140" cy="20" r="5" class="dot" />
+      <rect x="170" y="0" width="560" height="60" class="card" rx="8" />
+      <text x="190" y="24" class="text-white" font-size="16">FOUNDER &amp; CREATIVE DIRECTOR</text>
+      <text x="190" y="44" class="text-muted">PIXELMINT STUDIO MVS</text>
     </g>
 
     <!-- 2024 -->
-    <g transform="translate(0, 210)">
-      <text x="68" y="4" class="text-mono" font-size="12" font-weight="700">2024</text>
-      <circle cx="120" cy="0" r="4" class="dot" />
-      <text x="150" y="4" class="text-white" font-size="16" font-weight="600">E-BOOK AUTHOR</text>
-      <text x="150" y="24" class="text-muted" font-size="14" font-weight="500">Digital Publication</text>
+    <g transform="translate(0, 160)">
+      <text x="100" y="24" class="text-mono" fill="#8B95A7">2024</text>
+      <circle cx="140" cy="20" r="4" class="dot" fill="#8B95A7" />
+      <rect x="170" y="0" width="560" height="60" class="card" rx="8" />
+      <text x="190" y="24" class="text-white" font-size="16">E-BOOK AUTHOR</text>
+      <text x="190" y="44" class="text-muted">DIGITAL PUBLICATION</text>
     </g>
 
     <!-- 2023 - 2024 -->
-    <g transform="translate(0, 280)">
-      <text x="32" y="4" class="text-mono" font-size="12" font-weight="700">2023&mdash;2024</text>
-      <circle cx="120" cy="0" r="4" class="dot" />
-      <text x="150" y="4" class="text-white" font-size="16" font-weight="600">FREELANCE DEVELOPER</text>
-      <text x="150" y="24" class="text-muted" font-size="14" font-weight="500">Self-Employed</text>
+    <g transform="translate(0, 240)">
+      <text x="44" y="24" class="text-mono" fill="#8B95A7">2023 — 2024</text>
+      <circle cx="140" cy="20" r="4" class="dot" fill="#8B95A7" />
+      <rect x="170" y="0" width="560" height="60" class="card" rx="8" />
+      <text x="190" y="24" class="text-white" font-size="16">FREELANCE DEVELOPER</text>
+      <text x="190" y="44" class="text-muted">SELF-EMPLOYED</text>
     </g>
 
   </g>
 </svg>
-
