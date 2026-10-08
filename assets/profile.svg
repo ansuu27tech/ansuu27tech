@@ -8,23 +8,26 @@
             .text-mono-red { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; fill: #FF354F; }
             
             .role-text { opacity: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 600; fill: #247BFF; font-size: 16px; letter-spacing: 2px; text-transform: uppercase; }
-            .card { fill: #0B1020; stroke: rgba(255,255,255,0.06); stroke-width: 1; }
-            .card-hover:hover { stroke: rgba(36,123,255,0.3); }
+            .card { fill: #0B1020; stroke: rgba(255,255,255,0.06); stroke-width: 1; filter: url(#shadow3d); }
+            .card-hover:hover { stroke: rgba(36,123,255,0.4); filter: url(#shadow3d-hover); }
             
             .timeline-line { stroke: rgba(255,255,255,0.08); stroke-width: 2; }
             .dot { fill: #247BFF; }
             .dot-red { fill: #FF354F; }
             
             .orbit { fill: none; stroke: rgba(255,255,255,0.08); stroke-width: 1; }
-            .orbit-glow { fill: none; stroke: rgba(36, 123, 255, 0.3); stroke-width: 2; stroke-dasharray: 60 1200; }
-            .orbit-glow-red { fill: none; stroke: rgba(255, 53, 79, 0.4); stroke-width: 2; stroke-dasharray: 40 1000; }
+            
+            @keyframes dashFlow { to { stroke-dashoffset: -1260; } }
+            @keyframes dashFlowRed { to { stroke-dashoffset: -1040; } }
+            .orbit-glow { fill: none; stroke: rgba(36, 123, 255, 0.3); stroke-width: 2; stroke-dasharray: 60 1200; animation: dashFlow 15s linear infinite; }
+            .orbit-glow-red { fill: none; stroke: rgba(255, 53, 79, 0.4); stroke-width: 2; stroke-dasharray: 40 1000; animation: dashFlowRed 12s linear infinite; }
             
             .btn { fill: #FF354F; }
             .btn-text { fill: #F5F7FA; font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 12px; font-weight: 700; letter-spacing: 1px; }
             .hover-zone:hover .btn { fill: #D9253C; }
             .social-icon { fill: #F5F7FA; }
             
-            .id-card { fill: #03050A; stroke: rgba(255,255,255,0.2); stroke-width: 1; }
+            .id-card { fill: #03050A; stroke: rgba(255,255,255,0.2); stroke-width: 1; filter: url(#shadow3d); }
             .barcode { fill: rgba(255,255,255,0.9); }
             
             /* Animations */
@@ -53,6 +56,13 @@
             .pulse-ring { fill: none; stroke: #247BFF; animation: pulseOuter 2.5s ease-out infinite; transform-origin: center; }
             .pulse-ring-2 { fill: none; stroke: #247BFF; animation: pulseOuter 2.5s ease-out infinite; animation-delay: 1.25s; transform-origin: center; }
             
+            @keyframes floatOrb {
+                0%, 100% { transform: translate(0px, 0px); }
+                50% { transform: translate(30px, -50px); }
+            }
+            .orb-anim { animation: floatOrb 20s ease-in-out infinite; }
+            .orb-anim2 { animation: floatOrb 25s ease-in-out infinite reverse; }
+            
             .swing { transform-origin: 416px 0px; }
             
             @media (prefers-reduced-motion: reduce) {
@@ -67,6 +77,24 @@
         <clipPath id="id-avatar-clip">
             <rect x="0" y="0" width="140" height="140" rx="16" />
         </clipPath>
+        
+        <filter id="shadow3d" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.8" />
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
+        </filter>
+        <filter id="shadow3d-hover" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="1.0" />
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#247BFF" flood-opacity="0.2" />
+        </filter>
+        
+        <filter id="glowBlurHeavy" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="150" />
+        </filter>
+        
+        <radialGradient id="bgFade" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+            <stop offset="0%" stop-color="#070B16" stop-opacity="0" />
+            <stop offset="100%" stop-color="#070B16" stop-opacity="1" />
+        </radialGradient>
         <linearGradient id="foil" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stop-color="rgba(255,255,255,0)" />
             <stop offset="45%" stop-color="rgba(255,255,255,0.02)" />
@@ -96,7 +124,18 @@
 
     <!-- Base Background -->
     <rect width="832" height="3700" class="bg" rx="24" />
+    
+    <!-- 3D Atmospheric Background Orbs -->
+    <circle cx="100" cy="300" r="250" fill="rgba(36, 123, 255, 0.15)" filter="url(#glowBlurHeavy)" class="orb-anim" />
+    <circle cx="700" cy="800" r="300" fill="rgba(94, 23, 235, 0.12)" filter="url(#glowBlurHeavy)" class="orb-anim2" />
+    <circle cx="200" cy="2000" r="350" fill="rgba(36, 123, 255, 0.1)" filter="url(#glowBlurHeavy)" class="orb-anim" />
+    <circle cx="600" cy="3000" r="400" fill="rgba(0, 240, 255, 0.08)" filter="url(#glowBlurHeavy)" class="orb-anim2" />
+
+    <!-- Animated Grid -->
     <rect width="832" height="3700" fill="url(#grid)" rx="24" />
+    <!-- Fade grid edges -->
+    <rect width="832" height="3700" fill="url(#bgFade)" rx="24" />
+    
     <rect x="1" y="1" width="830" height="3698" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" rx="24" />
 
     <!-- ========================================== -->
