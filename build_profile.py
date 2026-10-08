@@ -5,7 +5,10 @@ def build_svg():
     width = 832
     height = 3700
 
-    b64_uri = "https://raw.githubusercontent.com/ansuu27tech/ansuu27tech/main/images/id.png"
+    # Read the portrait image as base64
+    with open('images/id.png', 'rb') as f:
+        b64_img = base64.b64encode(f.read()).decode('utf-8')
+    b64_uri = f"data:image/png;base64,{b64_img}"
 
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" fill="none">
     <defs>
