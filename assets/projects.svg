@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 832 500" width="100%" height="500">
+  <defs>
+    <style>
+      
+      .bg { fill: #03050a; }
+      .text-white { fill: #f5f7ff; font-family: 'Inter', sans-serif; }
+      .text-muted { fill: #8d96aa; font-family: 'Inter', sans-serif; }
+      .text-mono { font-family: 'JetBrains Mono', monospace; fill: #247bff; }
+      .card { fill: #0b1220; stroke: rgba(255,255,255,0.08); stroke-width: 1; }
+      .card-hover { opacity: 0; }
+      
+      @media (prefers-reduced-motion: no-preference) {
+        .anim-element { transition: all 0.3s ease; }
+      }
+    </style>
+  </defs>
+
+  <rect width="832" height="500" class="bg" rx="12" />
+  <text x="40" y="40" class="text-mono" font-size="10" font-weight="700" letter-spacing="2">07 &mdash; SELECTED PROJECTS</text>
+
+  <!-- Row 1 -->
+  <g transform="translate(40, 80)">
+    <rect width="230" height="180" class="card" rx="8" />
+    <text x="20" y="30" class="text-mono" font-size="10">01 &middot; AI</text>
+    <text x="20" y="60" class="text-white" font-size="18" font-weight="600">MINDMAP AI</text>
+    <text x="20" y="80" class="text-muted" font-size="12">Intelligent Knowledge</text>
+    <text x="20" y="96" class="text-muted" font-size="12">Graph Builder</text>
+    <text x="20" y="160" class="text-mono" font-size="9" fill="#8d96aa">ML &middot; NLP &middot; Graph DB</text>
+  </g>
+
+  <g transform="translate(300, 80)">
+    <rect width="230" height="180" class="card" rx="8" />
+    <text x="20" y="30" class="text-mono" font-size="10">02 &middot; Studio / Web</text>
+    <text x="20" y="60" class="text-white" font-size="16" font-weight="600">PIXELMINT STUDIO MVS</text>
+    <text x="20" y="80" class="text-muted" font-size="12">Official Agency Website</text>
+    <text x="20" y="96" class="text-muted" font-size="12">— Built End-to-End</text>
+    <text x="20" y="160" class="text-mono" font-size="9" fill="#8d96aa">Next.js &middot; Web Design &middot; Agency</text>
+  </g>
+
+  <g transform="translate(560, 80)">
+    <rect width="230" height="180" class="card" rx="8" />
+    <text x="20" y="30" class="text-mono" font-size="10">03 &middot; Data</text>
+    <text x="20" y="60" class="text-white" font-size="18" font-weight="600">PULSE ANALYTICS</text>
+    <text x="20" y="80" class="text-muted" font-size="12">Real-Time Social</text>
+    <text x="20" y="96" class="text-muted" font-size="12">Sentiment Dashboard</text>
+    <text x="20" y="160" class="text-mono" font-size="9" fill="#8d96aa">Real-Time Charts &middot; API</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(40, 290)">
+    <rect width="230" height="180" class="card" rx="8" />
+    <text x="20" y="30" class="text-mono" font-size="10">04 &middot; AI</text>
+    <text x="20" y="60" class="text-white" font-size="18" font-weight="600">AURA HEALTH</text>
+    <text x="20" y="80" class="text-muted" font-size="12">Personalized AI Wellness</text>
+    <text x="20" y="96" class="text-muted" font-size="12">Companion</text>
+    <text x="20" y="160" class="text-mono" font-size="9" fill="#8d96aa">LLM &middot; Mobile UX</text>
+  </g>
+
+  <g transform="translate(300, 290)">
+    <rect width="230" height="180" class="card" rx="8" />
+    <text x="20" y="30" class="text-mono" font-size="10">05 &middot; Dev Tools</text>
+    <text x="20" y="60" class="text-white" font-size="18" font-weight="600">GRIDFORGE</text>
+    <text x="20" y="80" class="text-muted" font-size="12">No-Code Data Pipeline</text>
+    <text x="20" y="96" class="text-muted" font-size="12">Builder</text>
+    <text x="20" y="160" class="text-mono" font-size="9" fill="#8d96aa">Drag &amp; Drop &middot; ETL &middot; Cloud</text>
+  </g>
+
+  <g transform="translate(560, 290)">
+    <rect width="230" height="180" class="card" rx="8" />
+    <text x="20" y="30" class="text-mono" font-size="10">06 &middot; Creative Tech</text>
+    <text x="20" y="60" class="text-white" font-size="18" font-weight="600">SYNTHWAVE FM</text>
+    <text x="20" y="80" class="text-muted" font-size="12">Generative AI Music</text>
+    <text x="20" y="96" class="text-muted" font-size="12">Experience</text>
+    <text x="20" y="160" class="text-mono" font-size="9" fill="#8d96aa">Generative AI &middot; Audio &middot; Canvas</text>
+  </g>
+</svg>
+

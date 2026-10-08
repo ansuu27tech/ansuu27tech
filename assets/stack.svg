@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 832 450" width="100%" height="450">
+  <defs>
+    <style>
+      
+      .bg { fill: #03050a; }
+      .text-white { fill: #f5f7ff; font-family: 'Inter', sans-serif; }
+      .text-muted { fill: #8d96aa; font-family: 'Inter', sans-serif; }
+      .text-mono { font-family: 'JetBrains Mono', monospace; fill: #247bff; }
+      .orbit { fill: none; stroke: rgba(255,255,255,0.05); stroke-width: 1; }
+      .orbit-glow { fill: none; stroke: rgba(36, 123, 255, 0.2); stroke-width: 2; }
+      .tech-dot { fill: #0b1220; stroke: #247bff; stroke-width: 1.5; }
+      .tech-dot-crimson { fill: #0b1220; stroke: #ff354f; stroke-width: 1.5; }
+      .tech-text { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #8d96aa; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="832" height="450" class="bg" rx="12" />
+  <text x="40" y="40" class="text-mono" font-size="10" font-weight="700" letter-spacing="2">05 &mdash; TECHNOLOGY STACK</text>
+
+  <g transform="translate(416, 240)">
+    <!-- Orbits -->
+    <g transform="rotate(15)">
+      <ellipse cx="0" cy="0" rx="300" ry="100" class="orbit" />
+      <ellipse cx="0" cy="0" rx="300" ry="100" class="orbit-glow" stroke-dasharray="100 1000">
+        <animate attributeName="stroke-dashoffset" from="1100" to="0" dur="10s" repeatCount="indefinite" />
+      </ellipse>
+      
+      <!-- AI / DATA -->
+      <g transform="translate(-250, -55)"><circle r="4" class="tech-dot-crimson" /><text x="-20" y="-10" class="tech-text">Python</text></g>
+      <g transform="translate(-150, -86)"><circle r="4" class="tech-dot" /><text x="-35" y="-10" class="tech-text">Machine Learning</text></g>
+      <g transform="translate(150, 86)"><circle r="4" class="tech-dot" /><text x="10" y="5" class="tech-text">NLP</text></g>
+      <g transform="translate(250, 55)"><circle r="4" class="tech-dot-crimson" /><text x="10" y="5" class="tech-text">Data Science</text></g>
+    </g>
+
+    <g transform="rotate(-15)">
+      <ellipse cx="0" cy="0" rx="240" ry="80" class="orbit" />
+      <!-- ENGINEERING -->
+      <g transform="translate(-200, -44)"><circle r="4" class="tech-dot" /><text x="-30" y="-10" class="tech-text">React</text></g>
+      <g transform="translate(-100, -72)"><circle r="4" class="tech-dot-crimson" /><text x="-35" y="-10" class="tech-text">Next.js</text></g>
+      <g transform="translate(0, -80)"><circle r="4" class="tech-dot" /><text x="-25" y="-10" class="tech-text">TypeScript</text></g>
+      <g transform="translate(100, -72)"><circle r="4" class="tech-dot" /><text x="-15" y="-10" class="tech-text">HTML / CSS</text></g>
+      <g transform="translate(200, 44)"><circle r="4" class="tech-dot" /><text x="10" y="5" class="tech-text">Framer Motion</text></g>
+      <g transform="translate(100, 72)"><circle r="4" class="tech-dot-crimson" /><text x="10" y="5" class="tech-text">Three.js</text></g>
+    </g>
+
+    <g transform="rotate(45)">
+      <ellipse cx="0" cy="0" rx="160" ry="60" class="orbit" />
+      <!-- CREATIVE / PRODUCT -->
+      <g transform="translate(-130, -34)"><circle r="4" class="tech-dot-crimson" /><text x="-30" y="-10" class="tech-text" transform="rotate(-45)">UI/UX</text></g>
+      <g transform="translate(-50, -57)"><circle r="4" class="tech-dot" /><text x="-30" y="-10" class="tech-text" transform="rotate(-45)">Figma</text></g>
+      <g transform="translate(80, 52)"><circle r="4" class="tech-dot" /><text x="10" y="5" class="tech-text" transform="rotate(-45)">Branding</text></g>
+      <g transform="translate(130, 34)"><circle r="4" class="tech-dot-crimson" /><text x="10" y="5" class="tech-text" transform="rotate(-45)">Motion Design</text></g>
+    </g>
+
+    <!-- Center core tools -->
+    <circle cx="0" cy="0" r="20" fill="#0b1220" stroke="#247bff" stroke-width="2" />
+    <circle cx="0" cy="0" r="10" fill="#ff354f" opacity="0.8">
+      <animate attributeName="r" values="8;12;8" dur="3s" repeatCount="indefinite" />
+    </circle>
+    
+    <g transform="translate(-50, -10)"><circle r="3" class="tech-dot" /><text x="-55" y="4" class="tech-text">Firebase</text></g>
+    <g transform="translate(50, -10)"><circle r="3" class="tech-dot" /><text x="10" y="4" class="tech-text">Supabase</text></g>
+    <g transform="translate(0, 35)"><circle r="3" class="tech-dot" /><text x="-20" y="15" class="tech-text">Node.js</text></g>
+    <g transform="translate(0, -35)"><circle r="3" class="tech-dot-crimson" /><text x="-25" y="-10" class="tech-text">Git/GitHub</text></g>
+  </g>
+</svg>
+

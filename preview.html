@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-width=1.0">
+<title>Ansúu - Premium Profile Preview</title>
+<style>
+  :root {
+    --bg-color: #03050a;
+    --text-color: #f5f7ff;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .controls {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(7, 11, 22, 0.9);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+  }
+  button {
+    background: #0b1220;
+    color: #f5f7ff;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.2s;
+  }
+  button:hover {
+    background: #247bff;
+    border-color: #247bff;
+  }
+  .container {
+    width: 100%;
+    max-width: 832px; /* Standard GitHub README width */
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .markdown-body {
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-align: left;
+  }
+  th {
+    background: #0b1220;
+  }
+  a {
+    color: #247bff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  /* Animation states */
+  .no-anim img {
+    animation-play-state: paused !important;
+  }
+</style>
+</head>
+<body>
+
+<div class="controls">
+  <button onclick="setAnimState('running')">Animation ON</button>
+  <button onclick="setAnimState('paused')">Animation OFF</button>
+  <button onclick="toggleReducedMotion()">Toggle Reduced Motion</button>
+  <button onclick="reloadAt(0)">0s</button>
+  <button onclick="reloadAt(2)">2s</button>
+  <button onclick="reloadAt(5)">5s</button>
+  <button onclick="reloadAt(9)">9s</button>
+  <button onclick="reloadAt(15)">15s</button>
+</div>
+
+<div class="container" id="svg-container">
+  <!-- SVGs -->
+  <object data="assets/hero.svg?v=1" type="image/svg+xml" width="100%"></object>
+  <object data="assets/about-life.svg?v=1" type="image/svg+xml" width="100%"></object>
+  <object data="assets/stack.svg?v=1" type="image/svg+xml" width="100%"></object>
+  <object data="assets/experience.svg?v=1" type="image/svg+xml" width="100%"></object>
+  <object data="assets/projects.svg?v=1" type="image/svg+xml" width="100%"></object>
+  
+  <div class="markdown-body">
+    <h3>SELECTED PROJECTS</h3>
+    <table>
+      <tr><th>Project</th><th>Category</th><th>Description</th><th>Technologies</th><th>Year</th><th>Link</th></tr>
+      <tr><td><b>MINDMAP AI</b></td><td>AI</td><td>Intelligent Knowledge Graph Builder</td><td>Machine Learning, NLP, Graph DB</td><td>2025</td><td>-</td></tr>
+      <tr><td><b>PIXELMINT STUDIO MVS</b></td><td>Studio / Web</td><td>Official Agency Website</td><td>Next.js, Web Design, Agency, Branding</td><td>2026</td><td><a href="https://pixelmint-studio-delta.vercel.app/">View Live</a></td></tr>
+      <tr><td><b>PULSE ANALYTICS</b></td><td>Data</td><td>Real-Time Social Sentiment Dashboard</td><td>Real-Time Charts, API</td><td>2025</td><td>-</td></tr>
+      <tr><td><b>AURA HEALTH</b></td><td>AI</td><td>Personalized AI Wellness Companion</td><td>LLM, Mobile UX</td><td>2025</td><td>-</td></tr>
+      <tr><td><b>GRIDFORGE</b></td><td>Dev Tools</td><td>No-Code Data Pipeline Builder</td><td>Drag & Drop, ETL, Cloud</td><td>2024</td><td>-</td></tr>
+      <tr><td><b>SYNTHWAVE FM</b></td><td>Creative Technology</td><td>Generative AI Music Experience</td><td>Generative AI, Audio, Canvas</td><td>2024</td><td>-</td></tr>
+      <tr><td><b>DRAUGHTSMAN STUDIO</b></td><td>Web</td><td>Architectural Firm — Official Website</td><td>Next.js, Web Design, Branding</td><td>2026</td><td><a href="https://www.draughtsmanstudio.com/">View Live</a></td></tr>
+      <tr><td><b>SS BUILDERS</b></td><td>Web</td><td>Construction & Builders Website</td><td>Java, HTML, CSS, JavaScript</td><td>2025</td><td><a href="https://ss-builders-mvs.vercel.app/">View Live</a></td></tr>
+      <tr><td><b>ARCHIDRAFT</b></td><td>Engineering</td><td>Project workflow platform</td><td>Flutter, Dart, Firebase, Node.js</td><td>2026</td><td>Private / Development</td></tr>
+    </table>
+  </div>
+
+  <object data="assets/id-dashboard.svg?v=1" type="image/svg+xml" width="100%"></object>
+  <object data="assets/connect.svg?v=1" type="image/svg+xml" width="100%"></object>
+
+  <div class="markdown-body" style="text-align: center;">
+    <h3>CONNECT WITH ME</h3>
+    <a href="https://github.com/ansuu27tech">GitHub</a> &middot; 
+    <a href="https://www.linkedin.com/in/mohammed-anas-30110b35">LinkedIn</a> &middot; 
+    <a href="https://www.instagram.com/ansuu__._/">Instagram</a> &middot; 
+    <a href="https://x.com/anas_moham80856">X</a> &middot; 
+    <a href="https://anasbio.vercel.app/">Portfolio</a> &middot; 
+    <a href="mailto:mohdanas53n@gmail.com">Email</a>
+
+    <hr style="border:0; border-top: 1px solid rgba(255,255,255,0.1); margin: 30px 0;">
+
+    <h3>PIXELMINT STUDIO MVS</h3>
+    <p><b>Founder & Creative Director</b></p>
+    <p style="color: #8d96aa;">PixelMint Studio MVS is a specialized design and engineering collective. We fuse experimental aesthetics with rigorous logic to build premium web experiences, resilient digital brands, and high-converting platforms for ambitious founders worldwide.</p>
+    <a href="https://pixelmint-studio-delta.vercel.app/">Official Studio Website</a> &middot; 
+    <a href="https://www.instagram.com/_pixelmint_studio/">Studio Instagram</a>
+  </div>
+</div>
+
+<script>
+  function setAnimState(state) {
+    const objs = document.querySelectorAll('object');
+    objs.forEach(obj => {
+      try {
+        const svg = obj.contentDocument.querySelector('svg');
+        if(svg) {
+          if(state === 'paused') svg.pauseAnimations();
+          else svg.unpauseAnimations();
+        }
+      } catch(e) {}
+    });
+  }
+
+  let reducedMotion = false;
+  function toggleReducedMotion() {
+    reducedMotion = !reducedMotion;
+    // Inject style into each object
+    const objs = document.querySelectorAll('object');
+    objs.forEach(obj => {
+      try {
+        const doc = obj.contentDocument;
+        let style = doc.getElementById('rm-style');
+        if(reducedMotion) {
+          if(!style) {
+            style = doc.createElement('style');
+            style.id = 'rm-style';
+            style.innerHTML = `* { animation: none !important; transition: none !important; }`;
+            doc.head.appendChild(style);
+          }
+        } else {
+          if(style) style.remove();
+        }
+      } catch(e) {}
+    });
+  }
+
+  function reloadAt(time) {
+    const objs = document.querySelectorAll('object');
+    objs.forEach(obj => {
+      try {
+        const svg = obj.contentDocument.querySelector('svg');
+        if(svg) {
+          svg.setCurrentTime(time);
+        }
+      } catch(e) {}
+    });
+  }
+</script>
+
+</body>
+</html>
