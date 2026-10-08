@@ -285,7 +285,7 @@
                 <text x="20" y="55" class="text-muted" font-size="13">Intelligent Knowledge</text>
                 <text x="20" y="75" class="text-muted" font-size="13">Graph Builder</text>
                 <rect x="20" y="95" width="20" height="2" fill="#247BFF" />
-                <text x="20" y="125" class="text-mono-red" font-size="9">MACHINE LEARNING &middot; NLP</text>
+                <text x="20" y="125" class="text-mono-red" font-size="9">MACHINE LEARNING · NLP</text>
             </g>
 
             <g transform="translate(243, 0)">
@@ -294,7 +294,7 @@
                 <text x="20" y="55" class="text-muted" font-size="13">Real-Time Social</text>
                 <text x="20" y="75" class="text-muted" font-size="13">Sentiment Dashboard</text>
                 <rect x="20" y="95" width="20" height="2" fill="#247BFF" />
-                <text x="20" y="125" class="text-mono" font-size="9">REAL-TIME CHARTS &middot; API</text>
+                <text x="20" y="125" class="text-mono" font-size="9">REAL-TIME CHARTS · API</text>
             </g>
 
             <g transform="translate(486, 0)">
@@ -303,7 +303,7 @@
                 <text x="20" y="55" class="text-muted" font-size="13">Personalized AI</text>
                 <text x="20" y="75" class="text-muted" font-size="13">Wellness Companion</text>
                 <rect x="20" y="95" width="20" height="2" fill="#FF354F" />
-                <text x="20" y="125" class="text-mono" font-size="9">LLM &middot; MOBILE UX</text>
+                <text x="20" y="125" class="text-mono" font-size="9">LLM · MOBILE UX</text>
             </g>
 
             <!-- Row 2 -->
@@ -313,7 +313,7 @@
                 <text x="20" y="55" class="text-muted" font-size="13">No-Code Data</text>
                 <text x="20" y="75" class="text-muted" font-size="13">Pipeline Builder</text>
                 <rect x="20" y="95" width="20" height="2" fill="#FF354F" />
-                <text x="20" y="125" class="text-mono" font-size="9">DRAG &amp; DROP &middot; ETL</text>
+                <text x="20" y="125" class="text-mono" font-size="9">DRAG &amp; DROP · ETL</text>
             </g>
 
             <g transform="translate(243, 168)">
@@ -322,7 +322,7 @@
                 <text x="20" y="55" class="text-muted" font-size="13">Generative AI</text>
                 <text x="20" y="75" class="text-muted" font-size="13">Music Experience</text>
                 <rect x="20" y="95" width="20" height="2" fill="#247BFF" />
-                <text x="20" y="125" class="text-mono" font-size="9">GENERATIVE AI &middot; AUDIO</text>
+                <text x="20" y="125" class="text-mono" font-size="9">GENERATIVE AI · AUDIO</text>
             </g>
 
             <g transform="translate(486, 168)">
@@ -331,7 +331,7 @@
                 <text x="20" y="55" class="text-muted" font-size="13">Architectural Firm</text>
                 <text x="20" y="75" class="text-muted" font-size="13">Official Website</text>
                 <rect x="20" y="95" width="20" height="2" fill="#247BFF" />
-                <text x="20" y="125" class="text-mono" font-size="9">NEXT.JS &middot; WEB DESIGN</text>
+                <text x="20" y="125" class="text-mono" font-size="9">NEXT.JS · WEB DESIGN</text>
             </g>
             
             <!-- Row 3 -->
@@ -341,7 +341,7 @@
                 <text x="20" y="55" class="text-muted" font-size="13">Construction &amp;</text>
                 <text x="20" y="75" class="text-muted" font-size="13">Builders Website</text>
                 <rect x="20" y="95" width="20" height="2" fill="#247BFF" />
-                <text x="20" y="125" class="text-mono" font-size="9">JAVA &middot; HTML &middot; CSS</text>
+                <text x="20" y="125" class="text-mono" font-size="9">JAVA · HTML · CSS</text>
             </g>
 
             <g transform="translate(243, 336)">
@@ -350,7 +350,7 @@
                 <text x="20" y="55" class="text-muted" font-size="13">Project Workflow</text>
                 <text x="20" y="75" class="text-muted" font-size="13">Platform</text>
                 <rect x="20" y="95" width="20" height="2" fill="#247BFF" />
-                <text x="20" y="125" class="text-mono" font-size="9">FLUTTER &middot; FIREBASE</text>
+                <text x="20" y="125" class="text-mono" font-size="9">FLUTTER · FIREBASE</text>
             </g>
         </g>
     </g>
@@ -501,8 +501,8 @@
 
             <g transform="translate(0, 150)">
                 <rect x="0" y="0" width="712" height="1" fill="rgba(255,255,255,0.06)" />
-                <text x="0" y="30" class="text-muted" font-size="12">GitHub: ansuu27tech &nbsp; &middot; &nbsp; LinkedIn: mohammed-anas-30110b35 &nbsp; &middot; &nbsp; Email: mohdanas53n@gmail.com</text>
-                <text x="0" y="50" class="text-muted" font-size="12">Studio: PixelMint Studio MVS &nbsp; &middot; &nbsp; Instagram: @ansuu__._ &nbsp; &middot; &nbsp; X: @anas_moham80856</text>
+                <text x="0" y="30" class="text-muted" font-size="12">GitHub: ansuu27tech   ·   LinkedIn: mohammed-anas-30110b35   ·   Email: mohdanas53n@gmail.com</text>
+                <text x="0" y="50" class="text-muted" font-size="12">Studio: PixelMint Studio MVS   ·   Instagram: @ansuu__._   ·   X: @anas_moham80856</text>
             </g>
         </g>
     </g>
