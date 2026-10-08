@@ -1,65 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 832 3700" fill="none">
+import base64
+import os
+
+def build_svg():
+    width = 832
+    height = 3700
+
+    b64_uri = "https://raw.githubusercontent.com/ansuu27tech/ansuu27tech/main/images/id.png"
+
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" fill="none">
     <defs>
         <style>
-            .bg { fill: #070B16; }
-            .text-white { fill: #F5F7FA; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
-            .text-muted { fill: #8B95A7; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-            .text-mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; fill: #247BFF; }
-            .text-mono-red { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; fill: #FF354F; }
+            .bg {{ fill: #070B16; }}
+            .text-white {{ fill: #F5F7FA; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }}
+            .text-muted {{ fill: #8B95A7; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }}
+            .text-mono {{ font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; fill: #247BFF; }}
+            .text-mono-red {{ font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; fill: #FF354F; }}
             
-            .role-text { opacity: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 600; fill: #247BFF; font-size: 16px; letter-spacing: 2px; text-transform: uppercase; }
-            .card { fill: #0B1020; stroke: rgba(255,255,255,0.06); stroke-width: 1; }
-            .card-hover:hover { stroke: rgba(36,123,255,0.3); }
+            .role-text {{ opacity: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 600; fill: #247BFF; font-size: 16px; letter-spacing: 2px; text-transform: uppercase; }}
+            .card {{ fill: #0B1020; stroke: rgba(255,255,255,0.06); stroke-width: 1; }}
+            .card-hover:hover {{ stroke: rgba(36,123,255,0.3); }}
             
-            .timeline-line { stroke: rgba(255,255,255,0.08); stroke-width: 2; }
-            .dot { fill: #247BFF; }
-            .dot-red { fill: #FF354F; }
+            .timeline-line {{ stroke: rgba(255,255,255,0.08); stroke-width: 2; }}
+            .dot {{ fill: #247BFF; }}
+            .dot-red {{ fill: #FF354F; }}
             
-            .orbit { fill: none; stroke: rgba(255,255,255,0.08); stroke-width: 1; }
-            .orbit-glow { fill: none; stroke: rgba(36, 123, 255, 0.3); stroke-width: 2; stroke-dasharray: 60 1200; }
-            .orbit-glow-red { fill: none; stroke: rgba(255, 53, 79, 0.4); stroke-width: 2; stroke-dasharray: 40 1000; }
+            .orbit {{ fill: none; stroke: rgba(255,255,255,0.08); stroke-width: 1; }}
+            .orbit-glow {{ fill: none; stroke: rgba(36, 123, 255, 0.3); stroke-width: 2; stroke-dasharray: 60 1200; }}
+            .orbit-glow-red {{ fill: none; stroke: rgba(255, 53, 79, 0.4); stroke-width: 2; stroke-dasharray: 40 1000; }}
             
-            .btn { fill: #FF354F; }
-            .btn-text { fill: #F5F7FA; font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 12px; font-weight: 700; letter-spacing: 1px; }
-            .hover-zone:hover .btn { fill: #D9253C; }
-            .social-icon { fill: #F5F7FA; }
+            .btn {{ fill: #FF354F; }}
+            .btn-text {{ fill: #F5F7FA; font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 12px; font-weight: 700; letter-spacing: 1px; }}
+            .hover-zone:hover .btn {{ fill: #D9253C; }}
+            .social-icon {{ fill: #F5F7FA; }}
             
-            .id-card { fill: #03050A; stroke: rgba(255,255,255,0.2); stroke-width: 1; }
-            .barcode { fill: rgba(255,255,255,0.9); }
+            .id-card {{ fill: #03050A; stroke: rgba(255,255,255,0.2); stroke-width: 1; }}
+            .barcode {{ fill: rgba(255,255,255,0.9); }}
             
             /* Animations */
-            @keyframes fadeSlide {
-                0%, 20%, 100% { opacity: 0; transform: translateY(10px); }
-                5%, 15% { opacity: 1; transform: translateY(0); }
-            }
-            .role-anim { animation: fadeSlide 16s infinite; }
-            .r1 { animation-delay: 0s; }
-            .r2 { animation-delay: 4s; }
-            .r3 { animation-delay: 8s; }
-            .r4 { animation-delay: 12s; }
+            @keyframes fadeSlide {{
+                0%, 20%, 100% {{ opacity: 0; transform: translateY(10px); }}
+                5%, 15% {{ opacity: 1; transform: translateY(0); }}
+            }}
+            .role-anim {{ animation: fadeSlide 16s infinite; }}
+            .r1 {{ animation-delay: 0s; }}
+            .r2 {{ animation-delay: 4s; }}
+            .r3 {{ animation-delay: 8s; }}
+            .r4 {{ animation-delay: 12s; }}
             
-            @keyframes bob {
-                0%, 100% { transform: translateY(0px); }
-                50% { transform: translateY(-6px); }
-            }
-            .bob-1 { animation: bob 4s ease-in-out infinite; }
-            .bob-2 { animation: bob 5s ease-in-out infinite; }
-            .bob-3 { animation: bob 6s ease-in-out infinite; }
+            @keyframes bob {{
+                0%, 100% {{ transform: translateY(0px); }}
+                50% {{ transform: translateY(-6px); }}
+            }}
+            .bob-1 {{ animation: bob 4s ease-in-out infinite; }}
+            .bob-2 {{ animation: bob 5s ease-in-out infinite; }}
+            .bob-3 {{ animation: bob 6s ease-in-out infinite; }}
             
-            @keyframes pulseOuter {
-                0% { r: 12px; opacity: 0.8; stroke-width: 2; }
-                100% { r: 35px; opacity: 0; stroke-width: 0; }
-            }
-            .pulse-ring { fill: none; stroke: #247BFF; animation: pulseOuter 2.5s ease-out infinite; transform-origin: center; }
-            .pulse-ring-2 { fill: none; stroke: #247BFF; animation: pulseOuter 2.5s ease-out infinite; animation-delay: 1.25s; transform-origin: center; }
+            @keyframes pulseOuter {{
+                0% {{ r: 12px; opacity: 0.8; stroke-width: 2; }}
+                100% {{ r: 35px; opacity: 0; stroke-width: 0; }}
+            }}
+            .pulse-ring {{ fill: none; stroke: #247BFF; animation: pulseOuter 2.5s ease-out infinite; transform-origin: center; }}
+            .pulse-ring-2 {{ fill: none; stroke: #247BFF; animation: pulseOuter 2.5s ease-out infinite; animation-delay: 1.25s; transform-origin: center; }}
             
-            .swing { transform-origin: 416px 0px; }
+            .swing {{ transform-origin: 416px 0px; }}
             
-            @media (prefers-reduced-motion: reduce) {
-                .anim-el, .role-anim, .swing, .sweep, .bob-1, .bob-2, .bob-3, .pulse-ring, .pulse-ring-2 { animation: none !important; opacity: 1 !important; transform: none !important; }
-                .r1 { display: block; opacity: 1; }
-                .r2, .r3, .r4 { display: none; }
-            }
+            @media (prefers-reduced-motion: reduce) {{
+                .anim-el, .role-anim, .swing, .sweep, .bob-1, .bob-2, .bob-3, .pulse-ring, .pulse-ring-2 {{ animation: none !important; opacity: 1 !important; transform: none !important; }}
+                .r1 {{ display: block; opacity: 1; }}
+                .r2, .r3, .r4 {{ display: none; }}
+            }}
         </style>
         <clipPath id="avatar-clip">
             <rect width="180" height="240" rx="16" />
@@ -95,9 +104,9 @@
     </defs>
 
     <!-- Base Background -->
-    <rect width="832" height="3700" class="bg" rx="24" />
-    <rect width="832" height="3700" fill="url(#grid)" rx="24" />
-    <rect x="1" y="1" width="830" height="3698" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" rx="24" />
+    <rect width="{width}" height="{height}" class="bg" rx="24" />
+    <rect width="{width}" height="{height}" fill="url(#grid)" rx="24" />
+    <rect x="1" y="1" width="830" height="{height-2}" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" rx="24" />
 
     <!-- ========================================== -->
     <!-- HERO SECTION -->
@@ -133,7 +142,7 @@
         <g transform="translate(540, -20)">
             <g class="bob-2">
                 <rect width="180" height="240" fill="#0B1020" rx="16" />
-                <image href="https://raw.githubusercontent.com/ansuu27tech/ansuu27tech/main/images/id.png" width="180" height="240" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice" />
+                <image href="{b64_uri}" width="180" height="240" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice" />
                 <!-- Border overlay -->
                 <rect width="180" height="240" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2" rx="16" />
                 <rect width="180" height="240" fill="none" stroke="url(#sheen)" stroke-width="2" rx="16" />
@@ -484,7 +493,7 @@
                     <!-- Avatar placeholder -->
                     <g transform="translate(90, 45)">
                         <rect width="140" height="140" rx="16" fill="#0B1020" stroke="#247BFF" stroke-width="1" />
-                        <image href="https://raw.githubusercontent.com/ansuu27tech/ansuu27tech/main/images/id.png" width="140" height="140" clip-path="url(#id-avatar-clip)" preserveAspectRatio="xMidYMid slice" />
+                        <image href="{b64_uri}" width="140" height="140" clip-path="url(#id-avatar-clip)" preserveAspectRatio="xMidYMid slice" />
                     </g>
 
                     <text x="160" y="215" class="text-white" font-size="20" font-weight="800" text-anchor="middle">N. MOHAMMED ANAS</text>
@@ -565,3 +574,11 @@
     </g>
 
 </svg>
+"""
+
+    with open('assets/profile.svg', 'w', encoding='utf-8') as out_f:
+        out_f.write(svg)
+    print("Generated assets/profile.svg!")
+
+if __name__ == '__main__':
+    build_svg()
